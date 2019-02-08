@@ -40,7 +40,7 @@ module.exports = async (argv) => {
       color: constant.slackStatusColors.good,
       pretext: argv.queryName,
       title: 'Query Report',
-      text: queryUrl,
+      text: queryUrl
     }]
   });
 };
